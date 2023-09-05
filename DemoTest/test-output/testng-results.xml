@@ -1,76 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Opened URL: https://www.amazon.in/]]>
-    </line>
-    <line>
-      <![CDATA[Searched for: samsung]]>
-    </line>
-    <line>
-      <![CDATA[Opened URL: https://www.amazon.in/]]>
-    </line>
-    <line>
-      <![CDATA[Searched for: apple]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-09-04T15:26:22 IST" name="Default suite" finished-at="2023-09-04T15:27:31 IST" duration-ms="68739">
+  <suite started-at="2023-09-05T11:47:38 IST" name="Default suite" finished-at="2023-09-05T11:47:38 IST" duration-ms="74">
     <groups>
     </groups>
-    <test started-at="2023-09-04T15:26:22 IST" name="Default test" finished-at="2023-09-04T15:27:31 IST" duration-ms="68739">
+    <test started-at="2023-09-05T11:47:38 IST" name="Default test" finished-at="2023-09-05T11:47:38 IST" duration-ms="74">
       <class name="com.example.NewTest2">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.example.NewTest2@130c12b7]" started-at="2023-09-04T15:26:22 IST" name="init" finished-at="2023-09-04T15:26:33 IST" duration-ms="10657" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.NewTest2@52b1beb6]" started-at="2023-09-05T11:47:39 IST" name="tearDown" finished-at="2023-09-05T11:47:39 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="searchOnAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.example.NewTest2@130c12b7]" started-at="2023-09-04T15:26:33 IST" name="searchOnAmazon" data-provider="dp" finished-at="2023-09-04T15:26:40 IST" duration-ms="6812" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.amazon.in/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[samsung]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opened URL: https://www.amazon.in/]]>
-            </line>
-            <line>
-              <![CDATA[Searched for: samsung]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchOnAmazon -->
-        <test-method signature="searchOnAmazon(java.lang.String,java.lang.String)[pri:0, instance:com.example.NewTest2@130c12b7]" started-at="2023-09-04T15:26:40 IST" name="searchOnAmazon" data-provider="dp" finished-at="2023-09-04T15:27:30 IST" duration-ms="50308" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.amazon.in/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[apple]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opened URL: https://www.amazon.in/]]>
-            </line>
-            <line>
-              <![CDATA[Searched for: apple]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchOnAmazon -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.example.NewTest2@130c12b7]" started-at="2023-09-04T15:27:30 IST" name="close" finished-at="2023-09-04T15:27:31 IST" duration-ms="735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.example.NewTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
