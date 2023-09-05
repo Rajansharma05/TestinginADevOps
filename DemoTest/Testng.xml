@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="EducationTests">
+        <groups>
+            <run>
+                <include name="Education" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.NewTest1" />
+        </classes>
+    </test>
+    <test name="ShoppingTests">
+        <groups>
+            <run>
+                <include name="Shopping" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.NewTest1" />
+        </classes>
+    </test>
+</suite>
