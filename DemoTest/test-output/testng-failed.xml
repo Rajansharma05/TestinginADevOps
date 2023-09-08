@@ -5,9 +5,12 @@
     <classes>
       <class name="com.example.NewTest2">
         <methods>
-          <include name="close"/>
-          <include name="searchOnAmazon" invocation-numbers="0"/>
-          <include name="init"/>
+          <include name="test3"/>
+          <include name="beforeShoppingGroup"/>
+          <include name="test1"/>
+          <include name="tearDown"/>
+          <include name="test4"/>
+          <include name="test2"/>
         </methods>
       </class> <!-- com.example.NewTest2 -->
     </classes>
