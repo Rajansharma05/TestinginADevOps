@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.example.NewTest2">
+      <class name="com.example.FlipkartLazyLoadingTest">
         <methods>
-          <include name="test3"/>
-          <include name="beforeShoppingGroup"/>
-          <include name="test1"/>
           <include name="tearDown"/>
-          <include name="test4"/>
-          <include name="test2"/>
+          <include name="testLazyLoadingFeature"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.example.NewTest2 -->
+      </class> <!-- com.example.FlipkartLazyLoadingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
